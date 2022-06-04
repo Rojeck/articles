@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Articles</title>
+</head>
+<body>
+    <script defer src="script.js"></script>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="menu">
+                    <div class="menu__logo">My way*</div>
+                    <div class="tag-block deactive">
+                        
+                    </div>
+                    <div class="create">
+                        <div class="tags-control-btn">#</div>
+                        <div class="menu__create-button">
+                            <img src="-.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+            <div class="articles"></div>
+    </div>
+    <div class="create-m modal deactive">
+        <div class="create-m__block modal-block">
+            <div class="close-button">
+                <img src="" alt="">
+            </div>
+           <div class="create-m__content">
+               <span>New Article</span>
+                <form action="">
+                    <div class="textarea">
+                        <input id="article-title" type="text" placeholder="Fill article title">
+                        <input id="article-url" type="url" placeholder="url for image">
+                        <textarea id="article-description" cols="50" rows="10"></textarea>
+                        <input id="article-tags" type="text" placeholder="no more 5 tags separated by commas">
+                    </div>
+                </form>
+                <div class="create-m__send-button button">Send</div>
+           </div>
+        </div>
+    </div>
+    <div class="show-m modal deactive"></div>
+    <div class="check-notiffication deactive"></div>
+    <div class="tags-seach deactive">
+        <input type="text" class="tag-seach__input" id="tag-seach">
+        <button class="tag-seach-btn">refresh</button>
+    </div>
+</body>
+</html>
+
